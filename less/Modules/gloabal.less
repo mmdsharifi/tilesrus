@@ -1,0 +1,49 @@
+    body,
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: @font-iran-sans, tahoma!important; // use persian fonts
+    }
+    
+    //
+    // Out Line btns like ADD TO CART btn in www.tilesrus.se
+    //
+    .btn-ol {
+        border-width: 2px;
+        .button-variant(@btn-default-bg;
+        @btn-default-color;
+        @btn-default-border);
+        .transition(.3s all);
+        &:hover {
+            .button-variant(@btn-default-color;
+            @btn-default-bg;
+            @btn-default-border);
+        }
+    }
+    /*
+    Rectengle of top of Dropdown menu in navbar ^ 
+    */
+    
+    .dropdown:hover {
+        ul.dropdown-menu {
+            display: block
+        }
+    }
+    
+    .navbar-nav>li>.dropdown-menu {
+        border-top: 4px solid darken(@brand-danger, 3%);
+        .border-top-radius(3px);
+        margin-top: 1px;
+        &::before {
+            @media (min-width: @screen-sm-min) {
+                content: '';
+                border-bottom: 7px solid darken(@brand-danger, 3%);
+                border-left: 7px solid transparent;
+                border-right: 7px solid transparent;
+                position: absolute;
+                top: -10px;
+                right: 16px;
+            }
+        }
+    }
