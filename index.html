@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="dist/css/style.css">
 </head>
 
@@ -34,74 +37,90 @@
                     <!--logo & Search & basket -->
                     <div class="row search__basket">
                         <div class="col-md-3 basket">
-                            <div class="btn-group">
-                                <a href="#" class="btn btn-danger">سبد خرید</a>
+                            <div class="btn-group hidden-xs hidden-sm">
+                                <a href="#" class="btn btn-danger">
+                                    سبد خرید</a>
                                 <a href="#" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">سبد خریدمون</a>
+                                    <li><a href="#">کاشی اصل اصفهان</a>
                                     </li>
-                                    <li><a href="#">به زودی</a>
-                                    </li>
-                                    <li><a href="#">درس میشه</a>
+                                    <li><a href="#">سرامیک اصل اصفهان</a>
                                     </li>
                                     <li class="divider"></li>
-                                    <li><a href="#">منتظر باشید</a>
+                                    <li><a id="btn-dropdown" class="btn btn-ol btn-md" href="#">
+                                    تصویه حساب
+                                    <span class="badge">۲</span>
+                                    </a>
                                     </li>
                                 </ul>
                             </div>
+                            <a href="#sefheTasvieHesab" class="btn btn-danger btn-block btn-md visible-xs visible-sm">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>
+                            </a>
+                            <hr class="visible-xs visiable-sm">
                         </div>
                         <div class="col-md-3 search__bar">
-                            <input type="search" class="form-control" placeholder="جستوجو ...">
+                            <div class="input-group">
+                                <input type="search" class="form-control " placeholder="جستوجو ..."> <span class="input-group-btn">
+        <button class="btn btn-md btn-ol" type="button">
+            <i class="glyphicon glyphicon-search"></i>
+        </button>
+      </span>
+                            </div>
                         </div>
-                        <div class="col-md-3 pull-right barand__logo">
-                            <img src="dist/img/logo.png" alt="an alternative">
+                        <div class="col-md-3 pull-right col-xs-pull-3 col-md-pull-0 barand__logo ">
+                            <img src="dist/img/logo.png " alt="an alternative ">
                         </div>
                     </div>
                 </div>
             </div>
-            <nav class="navbar navbar-default">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+            <nav class="navbar navbar-default ">
+                <div class="container ">
+                    <div class="navbar-header ">
+                        <button type="button " class="navbar-toggle collapsed " data-toggle="collapse " data-target="#bs-example-navbar-collapse-1 ">
+                            <span class="sr-only ">Toggle navigation</span>
+                            <span class="icon-bar "></span>
+                            <span class="icon-bar "></span>
+                            <span class="icon-bar "></span>
                         </button>
-                        <a class="navbar-brand" href="#"></a>
+                        <a class="navbar-brand " href="# "></a>
                     </div>
 
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">خانه <span class="sr-only">(جاری)</span></a>
+                    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1 ">
+                        <ul class="nav navbar-nav ">
+                            <li class="active ">
+                                <a href="# ">
+                                    <i class="glyphicon glyphicon-home "></i>
+                                    <span class="sr-only ">(جاری)</span>
+                                </a>
                             </li>
-                            <li><a href="#">کاشی</a>
+                            <li><a href="# ">کاشی</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">سرامیک <span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">درجه ۱</a>
+                            <li class="dropdown ">
+                                <a href="# " class="dropdown-toggle " data-toggle="dropdown " role="button " aria-expanded="false ">سرامیک <span class="caret "></span></a>
+                                <ul class="dropdown-menu " role="menu ">
+                                    <li><a href="# ">درجه ۱</a>
                                     </li>
-                                    <li><a href="#">درجه ۲</a>
+                                    <li><a href="# ">درجه ۲</a>
                                     </li>
-                                    <li><a href="#">سایر درجه ها</a>
+                                    <li><a href="# ">سایر درجه ها</a>
                                     </li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">یک بخش جدا</a>
+                                    <li class="divider "></li>
+                                    <li><a href="# ">یک بخش جدا</a>
                                     </li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">بخش آخر</a>
+                                    <li class="divider "></li>
+                                    <li><a href="# ">بخش آخر</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
-                        <form class="navbar-form navbar-left" role="search">
-                            <button type="submit" class="btn btn-danger">سرامیک اعلا</button>
+                        <form class="navbar-form navbar-left " role="search ">
+                            <button type="submit " class="btn btn-danger ">سرامیک اعلا</button>
                         </form>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">کوزه!</a>
+                        <ul class="nav navbar-nav navbar-right ">
+                            <li><a href="# ">کوزه!</a>
                             </li>
                         </ul>
                     </div>
@@ -109,222 +128,105 @@
             </nav>
         </header>
         <!--Main Area of site ex: products-->
-        <main class="container">
-            <section class="product">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h4 class="center-txt section__header"><span class="section__title">محصولات برتر</span></h4>
+        <main class="container ">
+            <section class="product ">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <h4 class="center-txt section__header "><span class="section__title ">محصولات برتر</span></h4>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
+                <div class="row ">
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
                                     <figure>
-                                        <img src="dist/img/octogono_44-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                        <span class="item-label label label-danger">واقعی!</span>
+                                        <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                        <span class="item-label label label-danger ">واقعی!</span>
                                     </figure>
                                     <figcaption>
-                                        <h4><a href="#">بلا لالاللالا یتبیستبیستبیستبایستبایستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span dir="ltr" class="pull-right text-muted">
+                                        <h4><a href="# ">بلا لالاللالا یتبیستبیستبیستبایستبایستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span dir="ltr " class="pull-right text-muted ">
                                             <small><s>۲۵۰ m۲</s></small>
                                             </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
                                         </p>
                                     </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
                                     <figure>
-                                        <img src="dist/img/octogono_44-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                        <span class="item-label label label-success">تخفیف ویژه!</span>
+                                        <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                        <span class="item-label label label-success ">تخفیف ویژه!</span>
                                     </figure>
                                     <figcaption>
-                                        <h4><a href="#">سرامیک سفید </a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span dir="ltr" class="pull-right text-muted">
+                                        <h4><a href="# ">سرامیک سفید </a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span dir="ltr " class="pull-right text-muted ">
                                             <small><s>۲۵۰ m۲</s></small>
                                             </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
                                         </p>
                                     </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
                                     <figure>
-                                        <img src="dist/img/octogono_44-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                        <span class="item-label label label-default">فروخته شده</span>
+                                        <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                        <span class="item-label label label-default ">فروخته شده</span>
                                     </figure>
                                     <figcaption>
-                                        <h4><a href="#">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span dir="ltr" class="pull-right text-muted">
+                                        <h4><a href="# ">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span dir="ltr " class="pull-right text-muted ">
                                             <small><s>۲۵۰ m۲</s></small>
                                             </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
                                         </p>
                                     </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
                                     <figure>
-                                        <img src="dist/img/octogono_44-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                        <span class="item-label label label-info">حمل رایگان!</span>
+                                        <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                        <span class="item-label label label-info ">حمل رایگان!</span>
                                     </figure>
                                     <figcaption>
-                                        <h4><a href="#">کاشی اعلای درجه اصفهان</a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span dir="ltr" class="pull-right text-muted">
+                                        <h4><a href="# ">کاشی اعلای درجه اصفهان</a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span dir="ltr " class="pull-right text-muted ">
                                             <small><s>۲۵۰ m۲</s></small>
                                             </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
                                         </p>
                                     </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="product most__prodoucts">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h4 class="center-txt section__header"><span class="section__title">محصولات پرفروش</span></h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    <figure>
-                                        <img src="dist/img/world-parks3-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                        <span class="item-label label label-danger">واقعی!</span>
-                                    </figure>
-                                    <figcaption>
-                                        <h4><a href="#">بلا لالاللالا یتبیستب ستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span dir="ltr" class="pull-right text-muted">
-                                            <small><s>۲۵۰ m۲</s></small>
-                                            </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
-                                        </p>
-                                    </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    <figure>
-                                        <img src="dist/img/octogono_44-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                    </figure>
-                                    <figcaption>
-                                        <h4><a href="#">سرامیک سفید </a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span dir="ltr" class="pull-right text-muted">
-                                            <small><s>۲۵۰ m۲</s></small>
-                                            </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
-                                        </p>
-                                    </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    <figure>
-                                        <img src="dist/img/world-parks3-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                    </figure>
-                                    <figcaption>
-                                        <h4><a href="#">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span class="rate">
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                            </span>
-                                            <br>
-                                            <span dir="ltr" class="pull-right text-muted">
-                                            <small><s>۲۵۰ m۲</s></small>
-                                            </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
-                                        </p>
-                                    </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product__item">
-                            <div class="panel panel-default">
-                                <div class="panel-body">
-                                    <figure>
-                                        <img src="dist/img/octogono_44-335x335.jpg" class="img-responsive" alt="an important alternative goes here">
-                                    </figure>
-                                    <figcaption>
-                                        <h4><a href="#">کاشی اعلای درجه اصفهان</a></h4>
-                                        <p class="center-txt meta-item">
-                                            <span class="rate">
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                                <i class="text-danger glyphicon glyphicon-star"></i>
-                                            </span>
-                                            <br>
-                                            <span dir="ltr" class="pull-right text-muted">
-                                            <small><s>۲۵۰ m۲</s></small>
-                                            </span>
-                                            <span dir="ltr" class=" text-danger"><strong>۳۰۰ m۲</strong></span>
-                                        </p>
-                                    </figcaption>
-                                    <div class="center-block text-center">
-                                        <a href="" class="btn btn-sm btn-ol">اضافه به سبد خرید</a>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
                                     </div>
                                 </div>
                             </div>
@@ -332,12 +234,129 @@
                     </div>
                 </div>
             </section>
-            <section class="description__area">
+            <section class="product most__prodoucts ">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <h4 class="center-txt section__header "><span class="section__title ">محصولات پرفروش</span></h4>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
+                                    <figure>
+                                        <img src="dist/img/world-parks3-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                        <span class="item-label label label-danger ">واقعی!</span>
+                                    </figure>
+                                    <figcaption>
+                                        <h4><a href="# ">بلا لالاللالا یتبیستب ستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                        </p>
+                                    </figcaption>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
+                                    <figure>
+                                        <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                    </figure>
+                                    <figcaption>
+                                        <h4><a href="# ">سرامیک سفید </a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                        </p>
+                                    </figcaption>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
+                                    <figure>
+                                        <img src="dist/img/world-parks3-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                    </figure>
+                                    <figcaption>
+                                        <h4><a href="# ">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span class="rate ">
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                            </span>
+                                            <br>
+                                            <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                        </p>
+                                    </figcaption>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="product__item ">
+                            <div class="panel panel-default ">
+                                <div class="panel-body ">
+                                    <figure>
+                                        <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                    </figure>
+                                    <figcaption>
+                                        <h4><a href="# ">کاشی اعلای درجه اصفهان</a></h4>
+                                        <p class="center-txt meta-item ">
+                                            <span class="rate ">
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                                <i class="text-danger glyphicon glyphicon-star "></i>
+                                            </span>
+                                            <br>
+                                            <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                            <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                        </p>
+                                    </figcaption>
+                                    <div class="center-block text-center ">
+                                        <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="description__area ">
                 <hr>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="panel panel-success">
-                            <div class="panel-body">
+                <div class="row ">
+                    <div class="col-md-4 ">
+                        <div class="panel panel-success ">
+                            <div class="panel-body ">
                                 <article>
 
                                     یکی از بهترین راه ها برای شناخت AngularJS کار با این آموزش است، که با ساخت و ساز یک برنامه ی کاربردی وب با استفاده از AngularJS آشنا می شوید تا در آینده کمکی بشود در ساخت برنامه های پیشرفته تر.برنامه ای که قصد داریم در این آموزش ایجاد کنیم، ساخت یک کاتالوگ است که فهرستی از دستگاه های آندروید را نمایش می دهد، این برنامه همچنین این اجازه را می دهد که تنها دستگاه هایی که مورد علاقه شما است را فیلتر و نمایش دهد و در آخر جزئیات هر دستگاه را نمایش دهد.
@@ -346,9 +365,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="panel panel-info">
-                            <div class="panel-body">
+                    <div class="col-md-8 ">
+                        <div class="panel panel-info ">
+                            <div class="panel-body ">
                                 <article>
 
                                     یکی از بهترین راه ها برای شناخت AngularJS کار با این آموزش است، که با ساخت و ساز یک برنامه ی کاربردی وب با استفاده از AngularJS آشنا می شوید تا در آینده کمکی بشود در ساخت برنامه های پیشرفته تر.برنامه ای که قصد داریم در این آموزش ایجاد کنیم، ساخت یک کاتالوگ است که فهرستی از دستگاه های آندروید را نمایش می دهد، این برنامه همچنین این اجازه را می دهد که تنها دستگاه هایی که مورد علاقه شما است را فیلتر و نمایش دهد و در آخر جزئیات هر دستگاه را نمایش دهد.
@@ -365,23 +384,23 @@
         </main>
 
     </div>
-    <footer class="main__footer row">
-        <section class="container">
-            <div class="col-md-4">
+    <footer class="main__footer row ">
+        <section class="container ">
+            <div class="col-md-4 ">
                 <h4>لینک های مهم سایت</h4>
                 <ul>
-                    <li><a href="">درباره ما</a>
+                    <li><a href=" ">درباره ما</a>
                     </li>
-                    <li><a href="">تماس با ما</a>
+                    <li><a href=" ">تماس با ما</a>
                     </li>
-                    <li><a href="">مدیریت</a>
+                    <li><a href=" ">مدیریت</a>
                     </li>
                     <li>
-                        <a href="">پشتیبانی پس از خرید</a>
+                        <a href=" ">پشتیبانی پس از خرید</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 ">
                 <h4>تماس با ما</h4>
                 <p>ادرس شرکت کاشی سرامیک ارمیه</p>
                 <address>
@@ -392,27 +411,27 @@
                     پلاک ۹۹
                 </address>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 ">
                 <h4>ابر برچسب ها</h4>
-                <div class="tags-area">
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
+                <div class="tags-area ">
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
                 </div>
-                <div class="tags-area">
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
-                    <span class="label label-default">tags</span>
+                <div class="tags-area ">
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
+                    <span class="label label-default ">tags</span>
                 </div>
             </div>
         </section>
