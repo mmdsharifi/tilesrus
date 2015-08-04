@@ -1,0 +1,139 @@
+@defaultRadius: 7px;
+.RoundedShape(@radius: @defaultRadius) {
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+}
+
+.text-success {
+    color: @brand-success;
+    &:hover {
+        color: darken(@brand-success, 10%);
+    }
+}
+
+.product-header {
+    margin-bottom: 120px;
+}
+
+.categories {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #d4d4d4;
+    ul {
+        list-style-type: none;
+        a {
+            .text-danger
+        }
+    }
+    li {
+        display: inline;
+    }
+    li::after {
+        content: "/";
+    }
+    li:last-child::after {
+        content: "";
+    }
+}
+
+.kr-m2-linethrough {
+    padding-top: 7px;
+    margin-bottom: 35px;
+    text-decoration: line-through;
+    &::after {
+        content: "kr m2";
+    }
+}
+
+.kr-m2-red {
+    .text-danger;
+    &::after {
+        content: "kr m2";
+    }
+    font-size: 24px;
+}
+
+.order {
+    background-color: @btn-default-color;
+    border-bottom: 2px solid #dfdfdf;
+    border-top: 2px solid #dfdfdf;
+    text-align: left;
+}
+
+.info-icons {
+    margin-bottom: 25px;
+    margin-top: 50px;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+        margin-left: 15px;
+    }
+}
+
+#space {
+    margin-bottom: 25px;
+}
+
+.rounded {
+    .RoundedShape(6px);
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 2px solid #cdcdcd;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#focusedInput {
+    width: 200px;
+}
+
+#add-to-card {
+    text-align: center;
+    border-bottom: 2px solid #cdcdcd;
+    padding-bottom: 20px;
+}
+
+.categories-bottom {
+    ul {
+        list-style-type: none;
+        a {
+            .text-danger
+        }
+    }
+    li {
+        display: inline;
+    }
+    li::after {
+        content: ",";
+    }
+    li:last-child::after {
+        content: "";
+    }
+    li:first-child::before {
+        content: "دسته بندی:";
+    }
+}
+
+.labels {
+    .categories-bottom;
+    li:first-child::before {
+        content: "برچسب ها:";
+    }
+}
+
+.nav-li-product {
+    .text-danger;
+    &:target {
+        background-color: trapsparent;
+        color: black;
+    }
+}
+
+#message {
+    margin-bottom: 40px;
+}

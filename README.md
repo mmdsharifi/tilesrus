@@ -12,4 +12,3 @@ a simple rtl boostrap workflow
 5. Finally use `grunt` !
 
 at now when ever you change the `.less` files, `style.less` compiles to `style.css`.
-
