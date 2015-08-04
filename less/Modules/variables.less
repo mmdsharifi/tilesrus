@@ -28,12 +28,13 @@
 //** Global text color on `<body>`.
 @text-color: @gray-dark;
 //** Global textual link color.
-@link-color: @brand-primary;
+@link-color: lighten( @gray-dark,
+5%);
 //** Link hover color set via `darken()` function.
 @link-hover-color: darken(@link-color,
-15%);
+40%);
 //** Link hover decoration.
-@link-hover-decoration: underline;
+@link-hover-decoration: none;
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
@@ -167,7 +168,7 @@ monospace;
 //** Small `.form-control` border radius
 @input-border-radius-small: @border-radius-small;
 //** Border color for inputs on focus
-@input-border-focus: @gray-light;
+@input-border-focus: #eeeeea;
 //** Placeholder text color
 @input-color-placeholder: @gray-light;
 //** Default `.form-control` height

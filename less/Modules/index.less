@@ -6,3 +6,22 @@
     padding-top: 70px;
     padding-bottom: 50px;
 }
+
+.main__footer {
+    .tags-area {
+        margin-top: 25px;
+        a {
+            margin: 5px;
+            .tag {
+                border: 1px @gray-lighter solid;
+                padding: 5px;
+                float: right;
+                width: 60px;
+            }
+            &:hover {
+                border-color: darken(@link-color, 40%);
+                text-decoration: none;
+            }
+        }
+    }
+}
