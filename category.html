@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/slider.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <!--sign in signup -->
+                    <div class="col-md-12 hidden-xs hidden-sm top__nav">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <strong><a href="">عضو شوید</a>|</strong>
+                                <span><a href="">وارد شوید</a></span>
+                            </div>
+                            <div class="center-txt col-md-6">
+                                <strong class="text-danger">حمل و نقل رایگان</strong>
+                                <small>(برای خرید های بالای ۳۰۰ هزار تومان)</small>
+                            </div>
+                            <div class="col-md-3 center-txt">
+                                <strong class="text-danger " dir="ltr">
+                             <i class="glyphicon glyphicon-phone-alt"></i>
+                            ۰۴۴۱ − ۲۲۹۹</strong> -
+                                <small class="">از ساعات ۸−۲۲</small>
+                            </div>
+                        </div>
+                    </div>
+                    <!--logo & Search & basket -->
+                    <div class="row search__basket">
+                        <div class="col-md-3 basket">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-danger">سبد خرید</a>
+                                <a href="#" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">سبد خریدمون</a>
+                                    </li>
+                                    <li><a href="#">به زودی</a>
+                                    </li>
+                                    <li><a href="#">درس میشه</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">منتظر باشید</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 search__bar">
+                            <input type="search" class="form-control" placeholder="جستوجو ...">
+                        </div>
+                        <div class="col-md-3 pull-right barand__logo">
+                            <img src="dist/img/logo.png" alt="an alternative">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">خانه <span class="sr-only">(جاری)</span></a>
+                            </li>
+                            <li><a href="#">کاشی</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">سرامیک <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">درجه ۱</a>
+                                    </li>
+                                    <li><a href="#">درجه ۲</a>
+                                    </li>
+                                    <li><a href="#">سایر درجه ها</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">یک بخش جدا</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">بخش آخر</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <button type="submit" class="btn btn-danger">سرامیک اعلا</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">کوزه!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="category">
+                        <ul>
+                            <li><a href="#">خانه</a>
+                            </li>
+                            <li><a href="#">فروشگاه کاشی</a>
+                            </li>
+                            <li>کاشی</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="sidebr">
+                                    <div>
+                                        <div>
+                                            <h3> محدود کردن براساس قیمت</h3>
+                                            <hr class="line"> فیلتر کردن بر اساس قیمت :
+                                            <br>
+                                            <br>
+                                            <input id="ex2" type="text" class="form-control" value="" data-slider-min="0" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]" />
+                                            <br>
+                                            </a><a href="" class="btn btn-sm btn-ol">فیلتر </a>
+                                        </div>
+                                        <div class="side">
+                                            <div>
+                                                <h3>دسته بندی محصولات</h3>
+                                                <hr class="line">
+                                            </div>
+                                            <ul>
+                                                <li><a href="">دسته</a>
+                                                </li>
+                                                <li><a href="">دسته</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">دسته مهم</a>
+                                                    <ul>
+                                                        <li><a href="">زیر دسته</a>
+                                                        </li>
+                                                        <li><a href="">زیر دسته</a>
+                                                        </li>
+                                                        <li><a href="">زیر دسته</a>
+                                                        </li>
+                                                        <li><a href="">زیر دسته</a>
+                                                        </li>
+                                                    </ul>
+
+                                                </li>
+                                                <li><a href="">دسته</a>
+                                                </li>
+                                                <li><a href="">دسته</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="side">
+                                            <div>
+                                                <h3>محدود کردن براساس</h3>
+                                                <hr class="line">
+                                            </div>
+                                            <select class="form-control">
+                                                <option value="one">نمایش براساس تعداد فروش</option>
+                                                <option value="two">نمایش براساس محصولات جدید</option>
+                                                <option value="three">نمایش براساس محصولات موجود</option>
+                                            </select>
+                                        </div>
+                                        <div class="side">
+                                            <div>
+                                                <h3>محدود کردن براساس</h3>
+                                                <hr class="line">
+                                            </div>
+                                            <select class="form-control">
+                                                <option value="one">نمایش براساس تعداد فروش</option>
+                                                <option value="two">نمایش براساس محصولات جدید</option>
+                                                <option value="three">نمایش براساس محصولات موجود</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <section class="mtn">
+                                    <h3>کاشی</h3>
+                                    <h4>در اینجا شما برای هر محیطی کاشی با قیمت خوب پیدا می‏کنید</h4> کاشی صفحات سفال با لعاب بر روی یک صفحه می باشد. آنها هر دو یک تابع تزئینی و محافظ داشته باشد. کاشی ترجیحا در حمام و آشپزخانه استفاده می شود. از آنجا که سفال در کاشی جذب رطوبت، مقاومت در برابر یخ زدگی می توانید. هنگامی که تجهیز آشپزخانه و یا حمام خود، عاقلانه است را انتخاب کنید با کیفیت بیش از قیمت پایین است. یک کاشی با کیفیت بالا دارای عمر مفید بهتر و می تواند موجب افزایش ارزش ملک است که. با ما شما را به طیف گسترده ای از محصولات کاشی در یک قیمت رقابتی پیدا کنید. در فروشگاه آنلاین ما شما می توانید هر زمان که شما می خواهید خرید و یا شما همچنین می توانید کاشی نمونه سفارش دهید.
+                                </section>
+                                <div>
+                                    <div>
+                                        <select class="form-control">
+                                            <option value="one">نمایش براساس تعداد فروش</option>
+                                            <option value="two">نمایش براساس محصولات جدید</option>
+                                            <option value="three">نمایش براساس محصولات موجود</option>
+                                        </select>
+                                    </div>
+                                    <div class="inf">
+                                        نمایش 1 تا 12 از 100 مورد
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!------------------------------------------------------------>
+                                <section class="product ">
+                                    <div class="row ">
+                                        <div class="col-md-4 col-sm-6 ">
+                                            <div class="product__item ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-body ">
+                                                        <figure>
+                                                            <span class="item-label label label-danger ">واقعی!</span>
+                                                            <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h4><a href="# ">بلا لالاللبا کاشی اعلای درجه اصفهان</a></h4>
+                                                            <p class="center-txt meta-item ">
+                                                                <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                                                <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                                            </p>
+                                                        </figcaption>
+                                                        <div class="center-block text-center ">
+                                                            <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 ">
+                                            <div class="product__item ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-body ">
+                                                        <figure>
+                                                            <span class="item-label label label-success ">تخفیف ویژه!</span>
+                                                            <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h4><a href="# ">سرامیک سفید </a></h4>
+                                                            <p class="center-txt meta-item ">
+                                                                <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                                                <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                                            </p>
+                                                        </figcaption>
+                                                        <div class="center-block text-center ">
+                                                            <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 ">
+                                            <div class="product__item ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-body ">
+                                                        <figure>
+                                                            <span class="item-label label label-default ">فروخته شده</span>
+                                                            <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h4><a href="# ">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                                            <p class="center-txt meta-item ">
+                                                                <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                                                <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                                            </p>
+                                                        </figcaption>
+                                                        <div class="center-block text-center ">
+                                                            <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="product ">
+                                    <div class="row ">
+                                        <div class="col-md-4 col-sm-6 ">
+                                            <div class="product__item ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-body ">
+                                                        <figure>
+                                                            <span class="item-label label label-danger ">واقعی!</span>
+                                                            <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h4><a href="# ">ستبایستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                                            <p class="center-txt meta-item ">
+                                                                <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                                                <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                                            </p>
+                                                        </figcaption>
+                                                        <div class="center-block text-center ">
+                                                            <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 ">
+                                            <div class="product__item ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-body ">
+                                                        <figure>
+                                                            <span class="item-label label label-success ">تخفیف ویژه!</span>
+                                                            <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h4><a href="# ">سرامیک سفید </a></h4>
+                                                            <p class="center-txt meta-item ">
+                                                                <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                                                <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                                            </p>
+                                                        </figcaption>
+                                                        <div class="center-block text-center ">
+                                                            <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 ">
+                                            <div class="product__item ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-body ">
+                                                        <figure>
+                                                            <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
+                                                            <span class="item-label label label-default ">فروخته شده</span>
+                                                        </figure>
+                                                        <figcaption>
+                                                            <h4><a href="# ">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                                            <p class="center-txt meta-item ">
+                                                                <span dir="ltr " class="pull-right text-muted ">
+                                            <small><s>۲۵۰ m۲</s></small>
+                                            </span>
+                                                                <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
+                                                            </p>
+                                                        </figcaption>
+                                                        <div class="center-block text-center ">
+                                                            <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!------------------------------------------------------------>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="page">
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a>
+                        </li>
+                        <li><a href="#">3</a>
+                        </li>
+                        <li><a href="#">4</a>
+                        </li>
+                        <li><a href="#">5</a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <br>
+            <br>
+        </main>
+    </div>
+    <footer class="main__footer row">
+        <section class="container">
+            <div class="col-md-4">
+                <h4>لینک های مهم سایت</h4>
+                <ul>
+                    <li><a href="">درباره ما</a>
+                    </li>
+                    <li><a href="">تماس با ما</a>
+                    </li>
+                    <li><a href="">مدیریت</a>
+                    </li>
+                    <li>
+                        <a href="">پشتیبانی پس از خرید</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>تماس با ما</h4>
+                <p>ادرس شرکت کاشی سرامیک ارمیه</p>
+                <address>
+                   ارومیه - خیابان خیام جنوبی
+                    <br>
+                    رو به روی بانک فلانی
+                    <br>
+                    پلاک ۹۹
+                </address>
+            </div>
+            <div class="col-md-4">
+                <h4>ابر برچسب ها</h4>
+                <div class="tags-area">
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                </div>
+                <div class="tags-area">
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                    <span class="label label-default">tags</span>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="dist/js/jquery-1.10.2.min.js "></script>
+    <script src="dist/js/bootstrap.min.js "></script>
+    <script src="dist/js/slider.min.js "></script>
+    <script>
+        $("#ex2").slider({});
+    </script>
+</body>
+
+</html>
