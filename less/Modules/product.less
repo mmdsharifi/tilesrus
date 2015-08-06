@@ -11,7 +11,9 @@
         color: darken(@brand-success, 10%);
     }
 }
-
+.product-img{
+     margin: 3px;   
+}
 .product-header {
     margin-bottom: 120px;
 }
@@ -19,21 +21,15 @@
 .categories {
     margin-bottom: 50px;
     border-bottom: 2px solid #d4d4d4;
-    ul {
+    background-color: transparent;
+    ol {
         list-style-type: none;
         a {
             .text-danger
         }
     }
-    li {
-        display: inline;
-    }
-    li::after {
-        content: "/";
-    }
-    li:last-child::after {
-        content: "";
-    }
+    a{.text-danger;}
+    
 }
 
 .kr-m2-linethrough {
@@ -108,21 +104,17 @@
     li {
         display: inline;
     }
-    li::after {
-        content: ",";
-    }
-    li:last-child::after {
-        content: "";
-    }
+    
     li:first-child::before {
-        content: "دسته بندی:";
+        content: "دسته بندی: ";
     }
+    border: 0px;
 }
 
 .labels {
     .categories-bottom;
     li:first-child::before {
-        content: "برچسب ها:";
+        content: "برچسب ها: ";
     }
 }
 
@@ -132,8 +124,30 @@
         background-color: trapsparent;
         color: black;
     }
+    
 }
 
 #message {
     margin-bottom: 40px;
+}
+.comment-name{
+     font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+comment-date{
+     font-weight: 100;
+    color: gray;
+    font-size: 8px;
+    margin-bottom: 45px;
+}
+.comment-content{
+     padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.comment-img{
+        
 }
