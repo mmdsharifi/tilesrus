@@ -7,34 +7,43 @@
     h6 {
         font-family: @font-yekan, tahoma!important; // use persian fonts
     }
-    
+    ::selection{
+        background: transparent;
+    }
+
     body {
         height: 100%;
-        width: 100vw;
+        //width: 100vw;
         overflow-x: hidden;
         a {
             text-decoration: none !important;
         }
     }
-    /* 
-    Sticky Footer by Ryan Fait 
-    http://ryanfait.com/
-    */
-    
-    .wrapper {
-        min-height: 100%;
-        margin-bottom: -250px;
-        &::after {
-            content: "";
-            display: block;
-            height: 250px;
+    @media (max-width: @screen-sm-min){
+        .container{
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        .btn-ol{
+            width: 100%;
         }
     }
-    
-    .main__footer {
-        height: 250px;
-    }
-    
+    /*
+    Sticky Footer by Ryan Fait
+    http://ryanfait.com/
+    */
+
+    // .wrapper {
+    //     min-height: 100%;
+    //     margin-bottom: -250px;
+    //     &::after {
+    //         content: "";
+    //         display: block;
+    //         height: 250px;
+    //     }
+    // }
+
+
     //
     // Out Line btns like ADD TO CART btn in www.tilesrus.se
     //
@@ -51,16 +60,16 @@
         }
     }
     /*
-    Rectengle of top of Dropdown menu in navbar ^ 
+    Rectengle of top of Dropdown menu in navbar ^
     */
-    
+
     .dropdown:hover {
         ul.dropdown-menu {
             display: block;
             margin-top: 0;
         }
     }
-    
+
     .navbar-nav>li>.dropdown-menu {
         border-top: 4px solid lighten(@brand-danger, 3%);
         .border-top-radius(3px);
@@ -73,19 +82,19 @@
                 border-right: 7px solid transparent;
                 position: absolute;
                 top: -10px;
-                right: 16px;
+                left: 16px;
             }
         }
     }
     /*overide text danger*/
-    
+
     .text-danger {
         color: @brand-danger;
         &:hover {
             color: @brand-danger;
         }
     }
-    
+
     .center-txt {
         text-align: center;
     }

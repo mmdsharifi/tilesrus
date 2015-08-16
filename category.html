@@ -112,15 +112,13 @@
         <main class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="category">
-                        <ul>
+                        <ul class="breadcrumb">
                             <li><a href="#">خانه</a>
                             </li>
                             <li><a href="#">فروشگاه کاشی</a>
                             </li>
-                            <li>کاشی</li>
+                            <li class="active">کاشی</li>
                         </ul>
-                    </div>
                 </div>
             </div>
             <div class="container-fluid">
@@ -133,11 +131,12 @@
                                         <div>
                                             <h3> محدود کردن براساس قیمت</h3>
                                             <hr class="line"> فیلتر کردن بر اساس قیمت :
-                                            <br>
-                                            <br>
                                             <input id="ex2" type="text" class="form-control" value="" data-slider-min="0" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]" />
-                                            <br>
-                                            </a><a href="" class="btn btn-sm btn-ol">فیلتر </a>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <a href="" class="btn btn-sm btn-ol">فیلتر </a>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="side">
                                             <div>
@@ -174,7 +173,7 @@
                                                 <h3>محدود کردن براساس</h3>
                                                 <hr class="line">
                                             </div>
-                                            <select class="form-control">
+                                            <select class="form-control pull-left">
                                                 <option value="one">نمایش براساس تعداد فروش</option>
                                                 <option value="two">نمایش براساس محصولات جدید</option>
                                                 <option value="three">نمایش براساس محصولات موجود</option>
@@ -185,7 +184,7 @@
                                                 <h3>محدود کردن براساس</h3>
                                                 <hr class="line">
                                             </div>
-                                            <select class="form-control">
+                                            <select class="form-control pull-left">
                                                 <option value="one">نمایش براساس تعداد فروش</option>
                                                 <option value="two">نمایش براساس محصولات جدید</option>
                                                 <option value="three">نمایش براساس محصولات موجود</option>
@@ -226,7 +225,7 @@
 
                                                         </figure>
                                                         <figcaption>
-                                                            <h4><a href="# ">بلا لالاللبا کاشی اعلای درجه اصفهان</a></h4>
+                                                            <h4><a href="# "> کاشی اعلای درجه اصفهان</a></h4>
                                                             <p class="center-txt meta-item ">
                                                                 <span dir="ltr " class="pull-right text-muted ">
                                             <small><s>۲۵۰ m۲</s></small>
@@ -276,7 +275,7 @@
 
                                                         </figure>
                                                         <figcaption>
-                                                            <h4><a href="# ">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
+                                                            <h4><a href="# ">کاشی اعلای درجه اصفهان</a></h4>
                                                             <p class="center-txt meta-item ">
                                                                 <span dir="ltr " class="pull-right text-muted ">
                                             <small><s>۲۵۰ m۲</s></small>
@@ -331,30 +330,6 @@
                                                         </figure>
                                                         <figcaption>
                                                             <h4><a href="# ">سرامیک سفید </a></h4>
-                                                            <p class="center-txt meta-item ">
-                                                                <span dir="ltr " class="pull-right text-muted ">
-                                            <small><s>۲۵۰ m۲</s></small>
-                                            </span>
-                                                                <span dir="ltr " class=" text-danger "><strong>۳۰۰ m۲</strong></span>
-                                                            </p>
-                                                        </figcaption>
-                                                        <div class="center-block text-center ">
-                                                            <a href=" " class="btn btn-sm btn-ol ">اضافه به سبد خرید</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-6 ">
-                                            <div class="product__item ">
-                                                <div class="panel panel-default ">
-                                                    <div class="panel-body ">
-                                                        <figure>
-                                                            <img src="dist/img/octogono_44-335x335.jpg " class="img-responsive " alt="an important alternative goes here ">
-                                                            <span class="item-label label label-default ">فروخته شده</span>
-                                                        </figure>
-                                                        <figcaption>
-                                                            <h4><a href="# ">بلابیسیستبا یتبایسبا کاشی اعلای درجه اصفهان</a></h4>
                                                             <p class="center-txt meta-item ">
                                                                 <span dir="ltr " class="pull-right text-muted ">
                                             <small><s>۲۵۰ m۲</s></small>
@@ -468,6 +443,7 @@
     <script>
         $("#ex2").slider({});
     </script>
+
 </body>
 
 </html>
