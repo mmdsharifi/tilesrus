@@ -1,5 +1,9 @@
-# RTLbootstrap
-a simple rtl boostrap workflow
+# tilesrus
+a clean shopping template made with bootstrap framework.
+
+![Alt text](./demo.png?raw=true "Markdown Preview")
+ 
+[a clone of tilesrus.se](http://www.tilesrus.se/)
 
 #Quick Start
 
