@@ -1,7 +1,7 @@
 # tilesrus
 a clean shopping template made with bootstrap framework.
 
-![Alt text](./demo.png?raw=true "Markdown Preview")
+![Alt text](https://raw.githubusercontent.com/mmdsharifi/tilesrus/master/demo.png "Markdown Preview")
  
 [a clone of tilesrus.se](http://www.tilesrus.se/)
 
